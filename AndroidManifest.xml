@@ -8,6 +8,19 @@
         android:minSdkVersion="14"
         android:targetSdkVersion="17" />
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WAKE_LOCK" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -25,6 +38,10 @@
         <activity
             android:name="com.dawnstep.hesini.ServiceActivity"
             android:label="@string/title_activity_service" >
+        </activity>
+        <activity
+            android:name="com.dawnstep.hesini.ConnectToServerActivity"
+            android:label="@string/title_activity_connect_to_server" >
         </activity>
     </application>
 

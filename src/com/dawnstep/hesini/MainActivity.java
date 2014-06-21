@@ -3,6 +3,7 @@ package com.dawnstep.hesini;
 import android.app.Activity;
 import android.app.ActionBar;
 import android.app.Fragment;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -23,7 +24,9 @@ public class MainActivity extends Activity {
 		@Override
 		public void onClick(View view) {
 			// TODO Auto-generated method stub
-			
+			Intent intent = new Intent();
+			intent.setClass(MainActivity.this, ServiceActivity.class);
+			startActivity(intent);
 		}
 		
 	};
