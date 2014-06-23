@@ -8,5 +8,7 @@
     <string name="welcome">welcome to play hesini.</string>
     <string name="title_activity_connect_to_server">ConnectToServerActivity</string>
     <string name="hello_world">Hello world!</string>
+    <string name="start_game">Start Game</string>
+    <string name="title_activity_server_gaming">ServerGamingActivity</string>
 
 </resources>

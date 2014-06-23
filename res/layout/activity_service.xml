@@ -14,4 +14,20 @@
         android:layout_height="wrap_content"
         android:text="@string/service_setting" />
 
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true" >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/listView1"
+        android:text="Button" />
+
 </RelativeLayout>

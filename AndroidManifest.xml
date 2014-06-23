@@ -43,6 +43,10 @@
             android:name="com.dawnstep.hesini.ConnectToServerActivity"
             android:label="@string/title_activity_connect_to_server" >
         </activity>
+        <activity
+            android:name="com.dawnstep.hesini.ServerGamingActivity"
+            android:label="@string/title_activity_server_gaming" >
+        </activity>
     </application>
 
 </manifest>
